@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Extend example</title>
+</head>
+
+<body>
+    <script src="/__build__/extend.js"></script>
+</body>
+
+<script>
+    function tset() {
+
+    }
+    arr = {
+        a: 2,
+        b: 3
+    }
+    for (let c in arr) {
+        tset[c] = arr[c]
+    }
+    console.log('22222',tset.a)
+</script>
+
+</html>
